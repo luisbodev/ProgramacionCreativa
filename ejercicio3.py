@@ -1,0 +1,6 @@
+url = input("Ingresa una url: ")
+url_sin_www = url.removeprefix("www.")
+print("La url en mayusculas es: ")
+print(url_sin_www.upper())
+print("La longitud de la url es: ")
+print(len(url_sin_www))
